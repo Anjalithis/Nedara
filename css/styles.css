@@ -1,0 +1,131 @@
+body{
+  font-family: 'Sniglet';
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Sniglet', cursive;
+font-weight: bold;
+}
+
+.p{
+  color: #8f8f8f;
+}
+
+.container-fluid{
+  padding:7% 15%;
+}
+.coloured-section{
+background-color:#204969;
+  color: white;
+}
+.white-section{
+background-color: white;
+color: #204969;
+}
+
+#title .container-fluid{
+text-align: left;
+  padding:3% 15%;
+}
+
+
+/* headings */
+
+.big-heading{
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+/* NAVIGATION Bar */
+.navbar{
+margin-bottom: 2rem;
+}
+.navbar-brand{
+  font-size: 2rem;
+  font-weight: bold;
+}
+.nav-list{
+  paading:0 18px;
+  font-size: 1.2rem;
+}
+
+/* download-button */
+.download-button{
+  margin:5% 3% 5% 0;
+}
+
+/* feature section */
+
+
+.feature-box{
+  padding: 4.5%;
+}
+.feature-heading{
+  font-size: 1.5rem;
+}
+.icon{
+  color:#204960;
+margin-bottom: .5rem;
+}
+.icon:hover{
+color: #8ac6d1;
+}
+
+/* testimonials section */
+.testimonials-img{
+  width:7%;
+  border-radius: 100%;
+  margin: 18px;
+}
+
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* press section */
+#press{
+  padding-bottom: 3%;
+}
+.press-img{
+width: 15%;
+margin: 20px 20px 50px;
+}
+/* pricing section */
+
+
+.pricing-img{
+  width: 100px;
+}
+#pricing{
+  padding: 100px;
+}
+
+.pricing-column{
+  padding:3% 2%;
+}
+.pricing-head{
+  font-size: 1.5rem;
+}
+
+@@media (max-width:1058px){
+  #title{
+    text-align: center;
+
+}
+}
+/* conclusion - section */
+
+/*  */
+/* CONTACT-SECTION */
+
+.cicon{
+  margin-left: 1rem;
+}
+.cicon:hover{
+color: #8ac6d1;
+}
